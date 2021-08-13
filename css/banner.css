@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+   /* min-width: fit-content;*/
+  }
+  
+  @media(max-width:800px){
+    body{
+      min-width: fit-content;
+    }
+  }
+
+  .title{
+    font-family:'Archivo Black', sans-serif;
+    font-size: 3.8rem;
+  }
+  
+  .subtitle{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:2.5rem;
+  }
+  
+  
+  .fas{
+    color: black;
+  }
+
+  p{
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 0;
+    
+  }
+  
+  
+  .mainparent{
+    background-color: rgb(31, 27, 27);
+    color: #eee;
+    /*min-width: fit-content;*/
+  }
+  
+  .parent{
+    display: flex;
+    justify-content: center;  
+  }
+  
+  .logo{
+    color: #000;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 12px;
+    margin-top: 60px;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    
+  }
+  
+  .head{    
+    margin-left: 10px;
+    margin-top: 50px;     
+  }
+  
+  .brandname{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 70px;
+    color: orangered;
+    margin-bottom: 0;
+    line-height: 1;
+    
+  }
+  
+  
+  .lower{
+    color: #eee;
+    font-size: 15px;
+    margin-top: 0;
+    padding-left: 8px;
+  
+  }
+  
+  
+  .content-1 {
+    margin: 40px 40px 0 40px;
+    color: #eee; 
+  }
+  
+  .firstlogos{
+    margin-top: 50px;
+    color: black;
+  }
+  
+  .redlogo{
+    color: red;
+  }
+  
+  .first{
+    text-align: center;
+    /*width: 50%;*/
+    background-color: orange;
+    
+  }
+  
+  .second{
+    text-align: center;
+    height: auto;
+   /* width: 50%;*/
+    background-color: skyblue;
+   
+  }
+  
+  .firstcontent{
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .a,.b{
+    margin-top: 10px;
+  }
+  
+  .firstcontent h2{
+    font-family:'Archivo Black', sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  .secondcontent{
+    padding: 10px 20px 20px 20px;
+  }
+  
+  .lh{
+    line-height: 0.8;
+  }
+  
+  
+  /*content-2*/
+  
+  .content-2{
+    margin: 40px 40px 0 40px;
+  }
+  
+  .rows2{
+    background-color: orangered;
+    padding: 25px 25px 0 25px;
+  }
+  
+  .content-2icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .z{
+    text-align: center;
+  }
+  .smoke{
+    margin: 10px 65px 10px 30px;
+  }
+  
+  .hand{
+    margin: 10px 60px 10px 40px;
+  }
+  
+  .drink{
+    margin: 10px 80px 10px 40px;
+   
+  }
+  
+  .p2{
+    padding: 0 20px 20px 0;
+  }
+  
+  @media (max-width: 900px) {
+      .smoke{
+          margin-left: 60px;
+      }
+      .hand{
+          margin-left: 85px;
+      }
+      .drink{
+          margin-left: 90px;
+      }
+  }
+ 
+  /*content-3 */
+  
+  .content-3{
+    margin: 40px 40px 0 40px;
+  }   
+  
+  .rows3{
+    background-color: skyblue;
+    padding: 25px 10px 5px 25px;
+  }
+  
+  .risk{
+    display: flex;
+  }
+  
+  .shieldicon{
+    margin-left: 15px;
+  }
+  
+  .p3-1{
+      margin-top: 12px;
+    padding-right: 5PX;
+  }
+  .p3-2{
+    padding: 0 5px 15px 0;  
+  }
+  .p3-3{
+    margin-top: 70px;
+    padding-right: 15px;
+  }
+  .p3-4{
+    padding-right: 15px;
+  }
+  
+  @media (max-width:1000px){
+    .p3-3{
+        margin-top: 0;
+    }
+}
+  /*content-4 */
+  
+  .content-4{
+    margin: 40px 40px 0 40px;   
+  }
+  
+  .fries{
+    background-color: orangered;
+    text-align: center;  
+    padding-top: 25px;
+  }
+  
+  .juice{
+    background-color: orange;
+    text-align: center;
+  }
+  
+  .glasses{
+    padding-top: 20px;
+    margin-top: 40px;
+  }
+  
+  .p4,.p7{
+    margin-bottom: 5px;
+  }
+  
+  .burger{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  /*content-5*/
+  
+  .content-5{
+    margin: 40px 40px 0 40px;     
+  }
+  
+  .rows5{
+    background-color: skyblue;
+    padding: 25px 0 10px 25px;
+  }
+  
+  
+  .p5,.p6{ 
+    margin-bottom: 20px;
+  }
+  
+  .tvicon,.cycleicon{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .bike{
+    transform: rotate(-25deg);
+    padding-bottom: 40px;
+    padding-right: 60px;
+  }
+  
+ 
+  
+  /*content -6*/
+  
+  .content-6{
+    margin: 40px 40px 0 40px; 
+  }
+  
+  .rows6{
+    background-color: orange;
+    padding: 25px 0 10px 25px;
+  }
+  
+  /*content-7*/
+  
+  .content-7{
+    margin: 40px 40px 0 40px; 
+  }
+  
+  .cost{
+    background-color: skyblue;
+    text-align: center;
+  }
+  
+  .physical{
+    background-color: orangered;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  
+  .dollar{
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  
+  .lasthead{
+      padding-top: 30px;
+  }
+  .p7last{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .lastdiv{
+    height: 70px;
+    width: 70px;   
+  }
+
+
