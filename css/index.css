@@ -3,11 +3,7 @@ body{
    /* min-width: fit-content;*/
   }
   
-  @media(max-width:800px){
-    body{
-      min-width: fit-content;
-    }
-  }
+ /*logo css*/
 
   .title{
     font-family:'Archivo Black', sans-serif;
@@ -80,7 +76,8 @@ body{
   
   }
   
-  
+ /*content-1*/
+
   .content-1 {
     margin: 40px 40px 0 40px;
     color: #eee; 
@@ -170,6 +167,8 @@ body{
     padding: 0 20px 20px 0;
   }
   
+/*necessary media query for above elements*/
+
   @media (max-width: 900px) {
       .smoke{
           margin-left: 60px;
@@ -182,6 +181,12 @@ body{
       }
   }
  
+  @media(max-width:800px){
+    body{
+      min-width: fit-content;
+    }
+  }
+
   /*content-3 */
   
   .content-3{
@@ -251,6 +256,7 @@ body{
     margin-top: 30px;
     margin-bottom: 50px;
   }
+
   /*content-5*/
   
   .content-5{
